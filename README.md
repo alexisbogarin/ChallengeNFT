@@ -1,5 +1,3 @@
-![preview](https://user-images.githubusercontent.com/51892359/147714830-b340e7b8-79a5-42bb-a523-6aef50381982.jpg)
-
 # Frontend Mentor - NFT preview card component
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
