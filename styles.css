@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+/* contenedor */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/*card*/
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    border-radius: 1em;
+    box-shadow: 10px 10px 10px hsl(217, 51%, 9%), -10px 10px 10px hsl(217, 51%, 9%);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1em;
+}
+
+/*card img*/
+.card .card-img img{
+    width: 90%;
+    border-radius: 12px;
+}
+
+.card .card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card .card-img,
+.card .text,
+.card .creation{
+    grid-column: 1/3;
+}
+
+/*textos card*/
+.card .text h2{
+    color: white;
+    font-size: 18px;
+}
+
+.card .text p{
+    font-size: 16px;
+}
+
+.card .text-eth{
+    color: hsl(178, 100%, 50%);
+}
+
+.card .text-eth img{
+    width: 10px;
+    height: 15px;
+}
+.card .text-date img{
+    width: 15px;
+    height: 15px;
+}
+
+.card .text p,
+.card .creation p,
+.card .text-date{
+    color: hsl(215, 51%, 70%);;
+}
+
+
+/*creador card */
+.card .creation img{
+    width: 20px;
+    height: 20px;
+    border: solid 1px white;
+    border-radius: 12px;
+}
+
+.card .creation,
+.card .text-eth,
+.card .text-date{
+    display: flex;
+    align-items: center;
+}
+
+/*padding*/
+.card .text,
+.card .text-eth,
+.card .text-date,
+.card .creation{
+    padding: 5px;
+}
+
+.card .text h2,
+.card .text p,
+.card .text-eth p,
+.card .text-eth img,
+.card .text-date p,
+.card .text-date img,
+.card .creation p{
+    padding: 5px;
+}
